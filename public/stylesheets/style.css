@@ -4,5 +4,60 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  position: fixed;
+  top: 30%;
+  left: 60%;
+  margin: 0;
+}
+#white-button {
+  background-color: rgba(255, 255, 255, 1); 
+  color: #00b7ff;
+  text-decoration: none;
+  padding: 20px 100px;
+  border: none;
+  border-radius: 30px;
+  position: fixed; 
+  top: 50%; 
+  left: 60%; 
+  transform: translate(0, -50%); 
+  cursor: pointer; /* Add cursor pointer on hover */
+  font-size: 30px;
+}
+.card-body {
+  text-align: center;
+}
+.col-md-4 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center; /* Center vertically */
+  height: 100vh;
+}
+.card-img-top {
+  display: block; 
+  margin: 0 auto;
+}
+.card {
+  width: 20%; /* Each card takes 20% of the page width */
+  margin-right: 2%; /* Small gap between cards */
+  padding: 20px; 
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.movieBox {
+  display: flex;
+  align-items: center; 
+  background-color: #f0f0f0;
+  padding: 20px; 
+  border-radius: 30px; /* Rounded corners for the container */
+}
+
+.movieInfo {
+  margin-left: 5%;
 }
